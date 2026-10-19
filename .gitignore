@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# pytest
+.pytest_cache/
+
+# Playwright 测试产物
+test-results/
+playwright-report/
+
+# 截图（大文件，不提交）
+screenshots/
+
+# IDE
+.idea/
+.vscode/
+
+# 日志
+*.log

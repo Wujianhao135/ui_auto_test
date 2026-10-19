@@ -1,0 +1,28 @@
+﻿=== 可见 dialog 里所有按钮 ===
+
+=== 添加用户 dialog 的 HTML 结构（前 500 字符） ===
+python.exe : Traceback (most recent call last):
+所在位置 行:2 字符: 1
++ & "C:\Users\13500\anaconda3\python.exe" -u day2_debug_dialog.py > deb ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\python-practice\ui_auto_test\day2_debug_dialog.py", line 37, in <module>
+    html = page.get_by_role("dialog", name="添加用户").inner_html()
+  File "C:\Users\13500\anaconda3\lib\site-packages\playwright\sync_api\_generated.py", line 12392, in inner_html
+    self._sync(self._impl_obj.inner_html(timeout=to_milliseconds(timeout)))
+  File "C:\Users\13500\anaconda3\lib\site-packages\playwright\_impl\_sync_base.py", line 111, in _sync
+    return task.result()
+  File "C:\Users\13500\anaconda3\lib\site-packages\playwright\_impl\_locator.py", line 506, in inner_html
+    return await self._frame.inner_html(
+  File "C:\Users\13500\anaconda3\lib\site-packages\playwright\_impl\_frame.py", line 755, in inner_html
+    return await self._channel.send(
+  File "C:\Users\13500\anaconda3\lib\site-packages\playwright\_impl\_connection.py", line 78, in send
+    return await self._connection.wrap_api_call(
+  File "C:\Users\13500\anaconda3\lib\site-packages\playwright\_impl\_connection.py", line 636, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.inner_html: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("dialog", name="添加用户")
+

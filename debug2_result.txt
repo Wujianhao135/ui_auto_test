@@ -1,0 +1,8 @@
+﻿步骤1: 新增弹窗已打开
+步骤2: 部门树已展开
+步骤3: 已选研发部门
+页面上 .el-dialog__wrapper 总数: 4
+  dialog[0]: visible=False, title=''
+  dialog[1]: visible=False, title='显示/隐藏'
+  dialog[2]: visible=False, title='用户导入'
+  dialog[3]: visible=False, title='添加用户'

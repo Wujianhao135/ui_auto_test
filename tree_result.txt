@@ -1,0 +1,6 @@
+﻿=== body 下所有浮层的 class ===
+
+=== 找包含'研发部门'文字的元素 ===
+  共 2 个'研发部门'
+  node[0]: tag=<SPAN>, class='node-label', visible=True
+  node[1]: tag=<DIV>, class='cell el-tooltip', visible=True

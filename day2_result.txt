@@ -1,0 +1,40 @@
+﻿登录成功，当前URL: http://localhost/index
+进入用户管理页，当前URL: http://localhost/system/user
+
+=== 页面上的按钮 ===
+  button[1]: '搜索'
+  button[2]: '重置'
+  button[3]: '新增'
+  button[4]: '修改'
+  button[5]: '删除'
+  button[6]: '导入'
+  button[7]: '导出'
+  button[12]: '修改'
+  button[13]: '删除'
+  button[14]: '更多'
+  button[18]: '确 定'
+  button[19]: '取 消'
+  button[22]: '确 定'
+  button[23]: '取 消'
+  button[24]: '清空'
+  button[25]: '确定'
+
+=== 搜索区输入框 ===
+  input[0]: placeholder='请输入用户名称' type='text'
+  input[1]: placeholder='请输入手机号码' type='text'
+  input[2]: placeholder='用户状态' type='text'
+  input[3]: placeholder='开始日期' type=None
+  input[4]: placeholder='结束日期' type=None
+
+=== 表格列头 ===
+  列[0]: ''
+  列[1]: '用户编号'
+  列[2]: '用户名称'
+  列[3]: '用户昵称'
+  列[4]: '部门'
+  列[5]: '手机号码'
+  列[6]: '状态'
+  列[7]: '创建时间'
+  列[8]: '操作'
+
+截图已保存: screenshots/day2_user_list.png

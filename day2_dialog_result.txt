@@ -1,0 +1,33 @@
+﻿=== 新增弹窗里的输入框 ===
+  input[0]: type='text', placeholder='请输入用户昵称'
+  input[1]: type='text', placeholder=None
+  input[2]: type='text', placeholder='请输入手机号码'
+  input[3]: type='text', placeholder='请输入邮箱'
+  input[4]: type='text', placeholder='请输入用户名称'
+  input[5]: type='password', placeholder='请输入用户密码'
+  input[6]: type='text', placeholder='请选择性别'
+  input[7]: type='radio', placeholder=None
+  input[8]: type='radio', placeholder=None
+  input[9]: type='text', placeholder='请选择岗位'
+  input[10]: type='text', placeholder='请选择角色'
+
+=== 新增弹窗里的表单项文字（label） ===
+  label[0]: '用户昵称'
+  label[1]: '归属部门'
+  label[2]: '手机号码'
+  label[3]: '邮箱'
+  label[4]: '用户名称'
+  label[5]: '用户密码'
+  label[6]: '用户性别'
+  label[7]: '状态'
+  label[8]: '岗位'
+  label[9]: '角色'
+  label[10]: '备注'
+
+=== 弹窗底部按钮 ===
+  button: '确 定'
+  button: '取 消'
+  button: '确 定'
+  button: '取 消'
+
+弹窗截图: screenshots/day2_add_dialog.png
