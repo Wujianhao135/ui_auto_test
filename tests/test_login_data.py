@@ -5,6 +5,7 @@ from ui_auto_test.pages.login_page import LoginPage
 with open("data//login_cases.yaml",encoding="utf-8") as f:
     cases = yaml.safe_load(f)
 
+@pytest.mark.login
 @pytest.mark.parametrize("case",cases,ids=[c["case_name"] for c in cases])
 def test_login_data(page,case):
     loginpage = LoginPage(page)

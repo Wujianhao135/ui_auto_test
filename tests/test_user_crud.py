@@ -33,6 +33,7 @@ import random
 import pytest
 
 @pytest.mark.smoke
+@pytest.mark.user
 def test_login_user(page):
     username = f"test_{int(time.time())}_{random.randint(100, 999)}"
     login = LoginPage(page)
